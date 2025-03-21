@@ -21,11 +21,29 @@ Create a sqlite file
 ```bash
 touch database/database.sqlite
 ```
+Running Migrations
+```bash
+php artisan migrate
+```
 Install and Run
 ```bash
 composer install
 composer run dev
 ```
+
+Index:
+![image](https://github.com/user-attachments/assets/9e2d1ef8-497e-4e43-8e05-76790864e86f)
+
+Login:
+![image](https://github.com/user-attachments/assets/436c69df-8a6e-4eab-92ae-fca4b5dac9d8)
+
+Register:
+![image](https://github.com/user-attachments/assets/64f63abf-e543-41d5-911c-5ccb2e60cf5c)
+
+Dashboard:
+![image](https://github.com/user-attachments/assets/f1445176-cb67-44e4-b935-baf00a4d6d36)
+
+
 
 ## About Laravel
 
