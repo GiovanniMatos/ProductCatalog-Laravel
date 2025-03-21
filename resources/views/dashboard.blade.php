@@ -26,22 +26,22 @@
             <div class="flex mt-1">
                 <div class="w-1/2 mr-2">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="name">Name</label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" name="name" type="text" placeholder="Nome do produto">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" name="name" type="text" placeholder="Product Name">
                 </div>
                 <div class="w-1/2 ml-2">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="image">Image</label>
-                    <input class="shadow appearance-none border rounded w-full py-1 px-1 text-gray-700 focus:outline-none focus:shadow-outline" name="img_url" type="text" placeholder="Arraste uma imagem publica">
+                    <input class="shadow appearance-none border rounded w-full py-1 px-1 text-gray-700 focus:outline-none focus:shadow-outline" name="img_url" type="text" placeholder="Drag a public image">
                 </div>
             </div>
 
             <div class="mt-1">
                 <label class="block text-gray-700 text-sm font-bold" for="description">Description</label>
-                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" name="description" placeholder="Descrição do produto"></textarea>
+                <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" name="description" placeholder="Product Description"></textarea>
             </div>
 
             <div class="mt-1">
                 <label class="block text-gray-700 text-sm font-bold" for="price">Price</label>
-                <input class="shadow appearance-none border rounded w-full py-2 px-2 text-gray-700 focus:outline-none focus:shadow-outline" name="price" type="number" placeholder="Preço do produto">
+                <input class="shadow appearance-none border rounded w-full py-2 px-2 text-gray-700 focus:outline-none focus:shadow-outline" name="price" type="number" placeholder="Product Price">
             </div>
 
             <div class="mt-1">
