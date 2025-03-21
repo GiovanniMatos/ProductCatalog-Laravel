@@ -28,11 +28,11 @@
             </div>
 
             <div class="mb-4">
-                <label class="block text-gray-700">Senha</label>
+                <label class="block text-gray-700">Password</label>
                 <input type="password" name="password" class="w-full p-2 border rounded" required>
             </div>
 
             <button type="submit" class="w-full bg-blue-500 text-white font-bold py-2 rounded hover:bg-blue-600">Entrar</button>
             
-            <div class="mt-4"><a href="/register" class="text-blue-700">Criar usuário</a></div>
+            <div class="mt-4"><a href="/register" class="text-blue-700">Create account</a></div>
                

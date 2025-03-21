@@ -8,7 +8,7 @@
 </head>
 <body class="flex items-center justify-center min-h-screen bg-gray-100">
     <div class="w-full max-w-md p-6 bg-white shadow-md rounded-lg">
-        <h2 class="text-2xl font-semibold text-center mb-6">Registrar</h2>
+        <h2 class="text-2xl font-semibold text-center mb-6">Register</h2>
 
         @if ($errors->any())
             <div class="mb-4 p-3 text-red-700 bg-red-100 border border-red-400 rounded">
