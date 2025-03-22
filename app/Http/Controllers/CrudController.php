@@ -33,7 +33,7 @@ class CrudController extends Controller
             "img_url" => $request->img_url,
             "price" => $request->price
         ]);
-        echo"product add";
+        return redirect('/dashboard')->with('success', 'Product add!');
     }
 
     /**
@@ -41,7 +41,7 @@ class CrudController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        // Não utilizado, pode ser removido
     }
 
     /**
@@ -49,40 +49,36 @@ class CrudController extends Controller
      */
     public function show(DashboardProduct $dashboardProduct)
     {
-        //
+        // Não utilizado, pode ser removido
     }
 
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(DashboardProduct $dashboardProduct)
+    public function edit(DashboardProduct $product)
     {
-        $product_id = DashboardProduct::findOrFail($product_id);
-        return view('edit_product', [ 'product' => $product_id ]);
+        return view('edit_product', ['product' => $product]);
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, DashboardProduct $dashboardProduct)
+    public function update(Request $request, DashboardProduct $product)
     {
-        $product = DashboardProduct::findOrFail($product_id);
-        $product -> name = $new_data -> name;
-        $product -> img_url = $new_data -> img_url;
-        $product -> description = $new_data -> description;
-        $product -> price = $new_data -> price;
-        $product -> save();
-        return redirect('/dashboard');
+        $product->name = $request->name;
+        $product->img_url = $request->img_url;
+        $product->description = $request->description;
+        $product->price = $request->price;
+        $product->save();
+        return redirect('/dashboard')->with('success', 'Product update!');
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(DashboardProduct $dashboardProduct)
+    public function destroy(DashboardProduct $product)
     {
-        $product = DashboardProduct::findOrFail($id_product);
-        $product -> destroy($product);
-        echo "Product deleted: ", $product -> nome;
-        return redirect('/dashboard');
+        $product->delete();
+        return redirect('/dashboard')->with('success', 'Product delete!');
     }
 }

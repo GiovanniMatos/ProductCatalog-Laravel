@@ -69,7 +69,7 @@
                 <td><img src="{{$product->img_url}}" style="max-width: 100px; max-height: 100px;"></td>
                 <td>{{$product->price}}</td>
                 <td>
-                    <a href="/editar/{{$product->id}}" class="btn btn-warning">Edit</a>
+                    <a href="/edit/{{$product->id}}" class="btn btn-warning">Edit</a>
                     <a href="/delete/{{$product->id}}" class="btn btn-danger">Delete</a>
                 </td>
             </tr>

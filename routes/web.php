@@ -4,14 +4,13 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
-use App\Models\DashboardProduct;
 use App\Http\Controllers\CrudController;
- 
+
 Route::get('/', [CrudController::class, 'index']);
 Route::post('/create', [CrudController::class, 'create']);
-Route::get('/editar/{id_usuario}', [CrudController::class, 'edit']);
-Route::put('/update/{id_usuario}', [CrudController::class, 'update']);
-Route::get('/delete/{id_usuario}', [CrudController::class, 'destroy']);
+Route::get('/edit/{product}', [CrudController::class, 'edit'])->middleware('auth');
+Route::put('/update/{product}', [CrudController::class, 'update']);
+Route::get('/delete/{product}', [CrudController::class, 'destroy']);
 
 // Página de login (GET)
 Route::get('/login', function () {
