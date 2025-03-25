@@ -7,6 +7,20 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+Index:
+![image](https://github.com/user-attachments/assets/d92ae691-8e63-4864-ae03-f7b251bc59ba)
+![Captura de tela de 2025-03-25 19-00-59](https://github.com/user-attachments/assets/59a31c11-23d9-4954-a449-7126c65a5be1)
+
+Dashboard:
+![image](https://github.com/user-attachments/assets/f1445176-cb67-44e4-b935-baf00a4d6d36)
+
+Login:
+![image](https://github.com/user-attachments/assets/73e99328-c21e-4d5e-af1f-a47ff5fa4331)
+
+Register:
+![image](https://github.com/user-attachments/assets/64f63abf-e543-41d5-911c-5ccb2e60cf5c)
+<hr>
+
 Paste on your .env file
 ```bash
 APP_KEY=
@@ -30,20 +44,6 @@ Install and Run
 composer install
 composer run dev
 ```
-
-Index:
-![image](https://github.com/user-attachments/assets/9e2d1ef8-497e-4e43-8e05-76790864e86f)
-
-Login:
-![image](https://github.com/user-attachments/assets/436c69df-8a6e-4eab-92ae-fca4b5dac9d8)
-
-Register:
-![image](https://github.com/user-attachments/assets/64f63abf-e543-41d5-911c-5ccb2e60cf5c)
-
-Dashboard:
-![image](https://github.com/user-attachments/assets/f1445176-cb67-44e4-b935-baf00a4d6d36)
-
-
 
 ## About Laravel
 
